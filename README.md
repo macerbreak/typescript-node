@@ -13,3 +13,5 @@ Typescript node
 9) rename index.ts to index.ts
 10) yarn tsc --init
 11) find in tsconfig.json "outDir" value and set path for your ts files that will be compiled (after yarn tsc) in js files
+12) yarn tcs -w (typescript in watch, real time mode)
+13) add scripts for your dependencies: "scripts":{"watch":"tsc -w", "dev":"nodemon ./dist/index.js"}
